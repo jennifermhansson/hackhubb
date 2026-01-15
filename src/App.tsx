@@ -6,6 +6,7 @@ import UploadPage from "./pages/UploadPage"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import LoginPage from "./pages/LoginPage"
+import ProjectPage from "./pages/ProjectPage"
 
 function App() {
  
@@ -20,6 +21,7 @@ function App() {
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="/upload" element={<UploadPage />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/projects/:id" element={<ProjectPage />} />
           <Route path="*" element={<div>Not Found</div>} />
         </Routes>
       </main>

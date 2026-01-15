@@ -1,10 +1,13 @@
 
+import ProfileCard from "../components/ProfileCard"
+
 function ProfilePage() {
   return (
+   
     <div>
-      <h1>Create your Profile</h1>
-        <p>Share your story and showcase your skills</p>
+      <ProfileCard />
     </div>
+  
   )
 }
 

@@ -10,10 +10,10 @@ function Navbar() {
           </NavLink>
 
           <div className="ml-auto flex items-center space-x-6">
-            <NavLink to="/feed" className="hover:text-purple-900">Feed</NavLink>
-            <NavLink to="/profile" className="hover:text-purple-900">Profile</NavLink>
-            <NavLink to="/upload" className="hover:text-purple-900">Upload</NavLink>
-            <NavLink to="/login" className="bg-purple-900 text-white rounded-xl px-3">Login</NavLink>
+            <NavLink to="/feed" className="hover:text-indigo-900">Feed</NavLink>
+            <NavLink to="/profile" className="hover:text-indigo-900">Profile</NavLink>
+            <NavLink to="/upload" className="hover:text-indigo-900">Upload</NavLink>
+            <NavLink to="/login" className="bg-indigo-900 text-white rounded-xl px-3">Login</NavLink>
           </div>
         </div>
       </nav>
