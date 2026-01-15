@@ -16,7 +16,6 @@ Provide a simple, social environment for feedback and interaction
 # 📌 Project Status
 
 This project is currently in the design & planning phase.
-Figma prototypes are used as the foundation before implementation.
 
 # 👥 Team
 
